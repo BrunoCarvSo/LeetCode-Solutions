@@ -1,8 +1,6 @@
 public class Solution {
     public int NumberOfSteps(int num) 
     {
-        if(num == 0) return 0;
-
         int numberOfSteps = 0;
         while(num != 0)
         {
@@ -15,9 +13,7 @@ public class Solution {
             {
                 num -= 1;
                 numberOfSteps += 1;
-            }
-
-            
+            }   
         }
         return numberOfSteps;
     }
